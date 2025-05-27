@@ -1,0 +1,90 @@
+.login-container {
+  margin-top: 70px;
+  padding: 0 20px;
+}
+@media (max-width: 991px) {
+  .login-container {
+    margin-top: 40px;
+  }
+}
+.login-title {
+  color: var(--Text-Light-01, #333f4e);
+  font: 700 46px/1.22 Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .login-title {
+    font-size: 40px;
+  }
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(66, 71, 97, 0.1);
+  background-color: #fff;
+  padding: 16px;
+}
+@media (max-width: 991px) {
+  .input-wrapper {
+    margin-top: 40px;
+    padding-right: 20px;
+  }
+}
+.input-field {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  border: none;
+  font-size: 14px;
+  padding: 11px;
+  padding-left: 2px;
+}
+.input-field:focus {
+  outline: none;
+}
+::placeholder {
+  color: #a3b2c7;
+  opacity: 0.6;
+  padding-left: 0;
+}
+.login-button {
+  border: none;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: var(--Default-Brand, #7288fa);
+  color: var(--Default-White, #fff);
+  border-radius: 41px;
+  margin-top: 70px;
+  padding: 20px 18px;
+  font: 600 18px/1.33 Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+  box-shadow: 0 8px 30px rgba(65, 89, 214, 0.3);
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .login-button {
+    margin-top: 40px;
+  }
+}
+.signup-prompt {
+  color: var(--Default-Brand, #000000);
+  text-align: center;
+  margin-top: 34px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+.signup-link {
+  color: rgba(114, 136, 250, 1);
+  text-decoration: none;
+}
+
+.visually-hidden {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+.header-icon-img {
+  height: 60px;
+  width: 60px;
+}

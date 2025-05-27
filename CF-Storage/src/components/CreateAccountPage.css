@@ -1,0 +1,69 @@
+.login-container {
+  margin-top: 70px;
+  padding: 0 20px;
+}
+@media (max-width: 991px) {
+  .login-container {
+    margin-top: 40px;
+  }
+}
+.login-title {
+  color: var(--Text-Light-01, #333f4e);
+  font: 700 46px/1.22 Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .login-title {
+    font-size: 40px;
+  }
+}
+
+.create-account-button {
+  border: none;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: var(--Default-Brand, #7288fa);
+  color: var(--Default-White, #fff);
+  border-radius: 41px;
+  margin-top: 70px;
+  padding: 20px 18px;
+  font: 600 18px/1.33 Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+  box-shadow: 0 8px 30px rgba(65, 89, 214, 0.3);
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .login-button {
+    margin-top: 40px;
+  }
+}
+.signup-prompt {
+  color: var(--Default-Brand, #000000);
+  text-align: center;
+  margin-top: 34px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+.signup-link {
+  color: rgba(114, 136, 250, 1);
+  text-decoration: none;
+}
+
+.visually-hidden {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+.header-icon-img {
+  height: 60px;
+  width: 60px;
+}
+
+.error {
+  color: #f10404;
+  font-family: Poppins, sans-serif;
+}
+.message-error{
+  color: #f10404;
+  font-family: Poppins, sans-serif;
+}
